@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.3" xs:noNamespaceSchemaLocation="CMSIS-SVD.xsd">
   <name>EFM32GG842F512</name>
-  <version>5.8.2</version>
+  <version>2.7.3</version>
   <description>Silicon Labs EFM32GG842F512 Cortex-M MCU</description>
   <licenseText>
     *******************************************************************************\n
-    * @version 5.8.2                                                               \n
-    *******************************************************************************\n
     * # License                                                                    \n
-    * Copyright 2019 Silicon Laboratories Inc. www.silabs.com                      \n
+    * Copyright 2020 Silicon Laboratories Inc. www.silabs.com                      \n
     *******************************************************************************\n
     *                                                                              \n
     * SPDX-License-Identifier: Zlib                                                \n
@@ -47,7 +45,6 @@
   <peripherals>
     <peripheral>
       <name>DMA</name>
-      <version>5.8.2</version>
       <description>DMA</description>
       <baseAddress>0x400C2000</baseAddress>
       <addressBlock>
@@ -3504,7 +3501,6 @@
     </peripheral>
     <peripheral>
       <name>AES</name>
-      <version>5.8.2</version>
       <description>AES</description>
       <baseAddress>0x400E0000</baseAddress>
       <addressBlock>
@@ -3879,7 +3875,6 @@
     </peripheral>
     <peripheral>
       <name>MSC</name>
-      <version>5.8.2</version>
       <description>MSC</description>
       <baseAddress>0x400C0000</baseAddress>
       <addressBlock>
@@ -4561,7 +4556,6 @@
     </peripheral>
     <peripheral>
       <name>EMU</name>
-      <version>5.8.2</version>
       <description>EMU</description>
       <baseAddress>0x400C6000</baseAddress>
       <addressBlock>
@@ -5148,7 +5142,6 @@
     </peripheral>
     <peripheral>
       <name>RMU</name>
-      <version>5.8.2</version>
       <description>RMU</description>
       <baseAddress>0x400CA000</baseAddress>
       <addressBlock>
@@ -5327,7 +5320,6 @@
     </peripheral>
     <peripheral>
       <name>CMU</name>
-      <version>5.8.2</version>
       <description>CMU</description>
       <baseAddress>0x400C8000</baseAddress>
       <addressBlock>
@@ -7421,7 +7413,6 @@
     </peripheral>
     <peripheral>
       <name>LESENSE</name>
-      <version>5.8.2</version>
       <description>LESENSE</description>
       <baseAddress>0x4008C000</baseAddress>
       <addressBlock>
@@ -15091,7 +15082,6 @@
     </peripheral>
     <peripheral>
       <name>RTC</name>
-      <version>5.8.2</version>
       <description>RTC</description>
       <baseAddress>0x40080000</baseAddress>
       <addressBlock>
@@ -15372,7 +15362,6 @@
     </peripheral>
     <peripheral>
       <name>LETIMER0</name>
-      <version>5.8.2</version>
       <description>LETIMER0</description>
       <baseAddress>0x40082000</baseAddress>
       <addressBlock>
@@ -15999,7 +15988,6 @@
     </peripheral>
     <peripheral>
       <name>USART0</name>
-      <version>5.8.2</version>
       <description>USART0</description>
       <baseAddress>0x4000C000</baseAddress>
       <addressBlock>
@@ -17856,7 +17844,6 @@
     </peripheral>
     <peripheral>
       <name>USART1</name>
-      <version>5.8.2</version>
       <description>USART1</description>
       <baseAddress>0x4000C400</baseAddress>
       <addressBlock>
@@ -19713,7 +19700,6 @@
     </peripheral>
     <peripheral>
       <name>USART2</name>
-      <version>5.8.2</version>
       <description>USART2</description>
       <baseAddress>0x4000C800</baseAddress>
       <addressBlock>
@@ -21570,7 +21556,6 @@
     </peripheral>
     <peripheral>
       <name>TIMER0</name>
-      <version>5.8.2</version>
       <description>TIMER0</description>
       <baseAddress>0x40010000</baseAddress>
       <addressBlock>
@@ -23900,7 +23885,6 @@
     </peripheral>
     <peripheral>
       <name>TIMER1</name>
-      <version>5.8.2</version>
       <description>TIMER1</description>
       <baseAddress>0x40010400</baseAddress>
       <addressBlock>
@@ -26230,7 +26214,6 @@
     </peripheral>
     <peripheral>
       <name>TIMER2</name>
-      <version>5.8.2</version>
       <description>TIMER2</description>
       <baseAddress>0x40010800</baseAddress>
       <addressBlock>
@@ -28560,7 +28543,6 @@
     </peripheral>
     <peripheral>
       <name>TIMER3</name>
-      <version>5.8.2</version>
       <description>TIMER3</description>
       <baseAddress>0x40010C00</baseAddress>
       <addressBlock>
@@ -30890,7 +30872,6 @@
     </peripheral>
     <peripheral>
       <name>ACMP0</name>
-      <version>5.8.2</version>
       <description>ACMP0</description>
       <baseAddress>0x40001000</baseAddress>
       <addressBlock>
@@ -31435,7 +31416,6 @@
     </peripheral>
     <peripheral>
       <name>ACMP1</name>
-      <version>5.8.2</version>
       <description>ACMP1</description>
       <baseAddress>0x40001400</baseAddress>
       <addressBlock>
@@ -31980,7 +31960,6 @@
     </peripheral>
     <peripheral>
       <name>I2C0</name>
-      <version>5.8.2</version>
       <description>I2C0</description>
       <baseAddress>0x4000A000</baseAddress>
       <addressBlock>
@@ -33057,7 +33036,6 @@
     </peripheral>
     <peripheral>
       <name>I2C1</name>
-      <version>5.8.2</version>
       <description>I2C1</description>
       <baseAddress>0x4000A400</baseAddress>
       <addressBlock>
@@ -34134,7 +34112,6 @@
     </peripheral>
     <peripheral>
       <name>GPIO</name>
-      <version>5.8.2</version>
       <description>GPIO</description>
       <baseAddress>0x40006000</baseAddress>
       <addressBlock>
@@ -44837,7 +44814,6 @@
     </peripheral>
     <peripheral>
       <name>VCMP</name>
-      <version>5.8.2</version>
       <description>VCMP</description>
       <baseAddress>0x40000000</baseAddress>
       <addressBlock>
@@ -45113,7 +45089,6 @@
     </peripheral>
     <peripheral>
       <name>PRS</name>
-      <version>5.8.2</version>
       <description>PRS</description>
       <baseAddress>0x400CC000</baseAddress>
       <addressBlock>
@@ -47390,7 +47365,6 @@
     </peripheral>
     <peripheral>
       <name>LEUART0</name>
-      <version>5.8.2</version>
       <description>LEUART0</description>
       <baseAddress>0x40084000</baseAddress>
       <addressBlock>
@@ -48457,7 +48431,6 @@
     </peripheral>
     <peripheral>
       <name>LEUART1</name>
-      <version>5.8.2</version>
       <description>LEUART1</description>
       <baseAddress>0x40084400</baseAddress>
       <addressBlock>
@@ -49524,7 +49497,6 @@
     </peripheral>
     <peripheral>
       <name>PCNT0</name>
-      <version>5.8.2</version>
       <description>PCNT0</description>
       <baseAddress>0x40086000</baseAddress>
       <addressBlock>
@@ -50205,7 +50177,6 @@
     </peripheral>
     <peripheral>
       <name>PCNT1</name>
-      <version>5.8.2</version>
       <description>PCNT1</description>
       <baseAddress>0x40086400</baseAddress>
       <addressBlock>
@@ -50886,7 +50857,6 @@
     </peripheral>
     <peripheral>
       <name>PCNT2</name>
-      <version>5.8.2</version>
       <description>PCNT2</description>
       <baseAddress>0x40086800</baseAddress>
       <addressBlock>
@@ -51567,7 +51537,6 @@
     </peripheral>
     <peripheral>
       <name>ADC0</name>
-      <version>5.8.2</version>
       <description>ADC0</description>
       <baseAddress>0x40002000</baseAddress>
       <addressBlock>
@@ -52677,7 +52646,6 @@
     </peripheral>
     <peripheral>
       <name>DAC0</name>
-      <version>5.8.2</version>
       <description>DAC0</description>
       <baseAddress>0x40004000</baseAddress>
       <addressBlock>
@@ -54197,7 +54165,6 @@
     </peripheral>
     <peripheral>
       <name>LCD</name>
-      <version>5.8.2</version>
       <description>LCD</description>
       <baseAddress>0x4008A000</baseAddress>
       <addressBlock>
@@ -55167,7 +55134,6 @@
     </peripheral>
     <peripheral>
       <name>BURTC</name>
-      <version>5.8.2</version>
       <description>BURTC</description>
       <baseAddress>0x40081000</baseAddress>
       <addressBlock>
@@ -58081,7 +58047,6 @@
     </peripheral>
     <peripheral>
       <name>WDOG</name>
-      <version>5.8.2</version>
       <description>WDOG</description>
       <baseAddress>0x40088000</baseAddress>
       <addressBlock>
@@ -58228,7 +58193,6 @@
     </peripheral>
     <peripheral>
       <name>ETM</name>
-      <version>5.8.2</version>
       <description>ETM</description>
       <baseAddress>0xE0041000</baseAddress>
       <addressBlock>
@@ -59461,7 +59425,7 @@
   </peripherals>
 <!-- vendorExtions is _reqiuired_ to pass through Schema validation -->
   <vendorExtensions>
-    <name>Copyright 2019 Silicon Laboratories, Inc.</name>
+    <name>Copyright 2020 Silicon Laboratories, Inc.</name>
     <flashBaseAddress>0x00000000</flashBaseAddress>
     <flashSize>0x00080000</flashSize>
     <flashAccessTypes>rx</flashAccessTypes>
