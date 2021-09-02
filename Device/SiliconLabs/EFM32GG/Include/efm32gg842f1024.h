@@ -4,7 +4,7 @@
  *        for EFM32GG842F1024
  *******************************************************************************
  * # License
- * <b>Copyright 2020 Silicon Laboratories Inc. www.silabs.com</b>
+ * <b>Copyright 2021 Silicon Laboratories Inc. www.silabs.com</b>
  *******************************************************************************
  *
  * SPDX-License-Identifier: Zlib
@@ -3654,4 +3654,5 @@ typedef struct {
 #ifdef __cplusplus
 }
 #endif
+
 #endif /* EFM32GG842F1024_H */
